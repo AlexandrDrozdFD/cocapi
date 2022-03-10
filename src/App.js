@@ -1,9 +1,9 @@
-import Coctail from './components/Coctail';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Coctail />
+    <div>
+      app 
     </div>
   );
 }
