@@ -4,7 +4,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Error from './pages/Error';
 import SingleCoctail from './pages/SingleCoctail';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 
 
 function App() {

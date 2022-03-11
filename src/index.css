@@ -1,5 +1,27 @@
 @import-normalize;
 
+:root {
+  --primaryLightColor: #cae28d;
+  --primaryColor: #69b334;
+  --primaryDarkColor: #c02c03;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBackground: #f1f5f8;
+  --mainOverlay: rgba(35, 10, 36, 0.4);
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #afafaf;
+  --mainRed: #bd0303;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.3rem;
+  --lightShadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --mainBorderRadius: 0.25rem;
+  --smallWidth: 85vw;
+  --maxWidth: 40rem;
+  --fullWidth:  ;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,5 +30,16 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--mainBlack);
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--mainBlack);
+}
