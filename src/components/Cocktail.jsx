@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Coctail = () => {
+const Cocktail = () => {
   return (
     <h1>Coctail</h1>
   );
 }
 
-export default Coctail;
+export default Cocktail;
