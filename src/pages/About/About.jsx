@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
   return (
-    <section className="about-section">
+    <section className="section about-section">
       <h1 className="section-title">about us</h1>
       <p>
         Welcome to TheCocktailDB
