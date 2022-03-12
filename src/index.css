@@ -2,6 +2,7 @@
 
 :root {
   --primaryLightColor: #cae28d;
+  --primaryLightColor-s: #f0fdcc;
   --primaryColor: #69b334;
   --primaryDarkColor: #c02c03;
   --mainWhite: #fff;
@@ -33,6 +34,7 @@ body {
   font-size: 1rem;
   line-height: 1.4;
   color: var(--mainBlack);
+  background-color: var(--primaryLightColor-s);
 }
 
 ul {
