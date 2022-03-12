@@ -6,9 +6,10 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
-  const [searchTerm, setSearchTerm] = useState('a');
+  const [searchTerm, setSearchTerm] = useState('zo');
   const [cocktails, setCocktails] = useState([]);
   console.log(cocktails);
+  console.log(searchTerm);
 
   const fetchCocktails = async () => {
     setLoading(true);
