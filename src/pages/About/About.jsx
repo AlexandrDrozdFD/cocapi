@@ -9,7 +9,7 @@ const About = () => {
         Welcome to TheCocktailDB
         An open, crowd-sourced database of drinks and cocktails from around the world.
         We also offer a free JSON API for anyone wanting to use it.
-        If you like the site, please consider supporting us on Patreon by clicking the link below...
+        If you like the site, please consider supporting us on Patreon.
       </p>
     </section>
   );
